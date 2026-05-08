@@ -10,7 +10,10 @@ int main() {
     cout << "add = " << a + b << endl;
     cout << "sub = " << a - b << endl;
     cout << "mul = " << a * b << endl;
-    cout << "div = " << (float)a / b << endl;
+        cout << "div = " << (float)a / b << endl;
+    } else {
+        cout << "Cannot divide by zero" << endl;
+    }
 
     return 0;
 }
